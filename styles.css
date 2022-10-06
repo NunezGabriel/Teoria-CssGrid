@@ -1,0 +1,50 @@
+.container{
+    background-color: rgb(252, 144, 252);
+    border: 5px solid rgb(255, 163, 5);
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-auto-rows: 150px;
+    gap: 40px;
+}
+.item{
+    border: 5px solid rgb(0, 149, 255) ;
+    font-size: 4rem;
+
+}
+.container2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 22px;
+}
+.item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: greenyellow;
+}
+.item-container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(119, 198, 1);
+}
+.item-container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: green;
+}
+.item-container :nth-child(9),.item-container-2 :nth-child(9){
+    background-color: rgb(16, 154, 16);
+}
+.item-container-3 :nth-child(9){
+    background-color: rgb(2, 70, 2);
+}
+.number{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
