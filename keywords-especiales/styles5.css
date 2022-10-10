@@ -1,0 +1,27 @@
+/*-----------------FR, MIN-CONTENT, MAX-CONTENT------------------------*/
+.container{
+    border: 5px solid orange;
+    background-color: rgb(116, 250, 250);
+    display: grid;
+    grid-template-columns: 1fr 3fr  min-content max-content;
+}
+/*-----------------AUTO-FILL Y AUTO-FIT--------------------------------*/
+.container-2{
+    margin-top: 50px;
+    border: 5px solid orange;
+    background-color: rgb(116, 250, 250);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.container-3{
+    margin-top: 50px;
+    border: 5px solid orange;
+    background-color: rgb(116, 250, 250);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+/*---------------------------------------------------------------------*/
+.item{
+    border: 5px solid rgb(243, 85, 111);
+    font-size: 2rem;
+}
